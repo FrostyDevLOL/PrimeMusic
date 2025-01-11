@@ -38,12 +38,14 @@ module.exports = {
 
   nodes: [
     {
-  "identifier": "INZEWORLD.COM (DE)",
-  "password": "saher.inzeworld.com",
-  "host": "lava.inzeworld.com",
-  "port": 3128,
-  "secure": false
-    }
+        name: "INZEWORLD.COM (DE)",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
+    },
  ]
 }
 /*
@@ -66,4 +68,3 @@ module.exports = {
 
 
 */
-
